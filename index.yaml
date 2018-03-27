@@ -1,0 +1,24 @@
+openapi: "3.0.0"
+info:
+  title: Test Swagger out
+  version: v1
+  description: |
+    Zype API documentation provides information to web developers who wish to use Zype’s
+    Application Programming Interfaces (APIs). The Zype API includes modules for
+    managing videos and associated metadata. In addition, this reference describes a
+    number of related objects. The Zype API is a RESTful API service.
+
+    Our API is designed around standard REST CRUD (Create-Read-Update-Delete) semantics:
+
+    **POST** - Create a resource within a given collection
+
+    **GET** - Get a resource or collection of resources
+
+    **PUT** - Update a resource
+
+    **DELETE** - Delete a resource
+
+    Our default is to support JSON formatting, however if you prefer XML use the
+    Content-Type header with value text/xml.
+  paths:
+    $ref: ./paths/index.yaml

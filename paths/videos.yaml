@@ -1,0 +1,11 @@
+get:
+  summary: The Videos API is used to query, update, create, and delete videos in the Zype platform.
+  operationId: getVideos
+  tags:
+    - videos
+  responses:
+    '200':
+      content:
+        application/json:
+          schema:
+            $ref: '#/definitions/VideoMetadata'

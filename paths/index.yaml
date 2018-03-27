@@ -1,0 +1,2 @@
+/videos:
+  $ref: ./videos.yaml
