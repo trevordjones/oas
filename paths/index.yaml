@@ -1,2 +1,2 @@
 /videos:
-  $ref: ./videos.yaml
+  $ref: './videos.yaml'

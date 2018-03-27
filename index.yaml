@@ -1,7 +1,7 @@
 swagger: "2.0"
 info:
   title: Test Swagger out
-  version: v1
+  version: 1.0.0
   description: |
     Zype API documentation provides information to web developers who wish to use Zype’s
     Application Programming Interfaces (APIs). The Zype API includes modules for
@@ -21,4 +21,4 @@ info:
     Our default is to support JSON formatting, however if you prefer XML use the
     Content-Type header with value text/xml.
   paths:
-    $ref: ./paths/index.yaml
+    $ref: './paths/index.yaml'
