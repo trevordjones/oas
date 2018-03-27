@@ -20,5 +20,3 @@ info:
 
     Our default is to support JSON formatting, however if you prefer XML use the
     Content-Type header with value text/xml.
-  paths:
-    $ref: './paths/index.yaml'
